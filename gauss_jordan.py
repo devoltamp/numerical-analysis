@@ -4,14 +4,19 @@
 
 def gauss_jordan(a_m):
     n = len(a_m)
-    
+    print(n)
+
     for i in range(n):
         print(i)
 
         # swap
+        # row swapping
         for k in range(i + 1, n):
             if a_m[k][i] != 0:
                 a_m[i], a_m[k] = a_m[k], a_m[i]
+                # print("##")
+                # print(a_m[i], a_m[k])
+                # print("##")
                 break
         
         # leading one
