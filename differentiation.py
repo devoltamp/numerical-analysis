@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 time=np.linspace(0,60e-3,600)
-Ts=20e-3/200
+Ts=20e-3/200 
 f=50
 signal= 10*np.sin(2*np.pi*f*time)
 N=len(signal)
