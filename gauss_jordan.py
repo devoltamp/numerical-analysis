@@ -24,7 +24,9 @@ def gauss_jordan(a_m):
         for j in range(n + 1):
             a_m[i][j] /= pivot
         
-
+        print("###########")
+        print(k) 
+        print("###########")
         # rest column 0
         for k in range(n):
             if k != i:
