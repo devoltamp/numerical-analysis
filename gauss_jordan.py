@@ -1,6 +1,6 @@
 # the boner
 # augmented_matrix = a_m
-
+# https://www.perplexity.ai/apps/b435a2e5-725f-439c-b24a-6892fc21b774 >> visual link
 
 def gauss_jordan(a_m):
     n = len(a_m)
