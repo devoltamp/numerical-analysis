@@ -36,3 +36,4 @@ print(f"Are there any missing values (NaNs)? {df.isnull().values.any()}")
 
 # example of this is given in the coin_flip.py file
 # the commit is not working on the github is somethig wrong
+# it started working
